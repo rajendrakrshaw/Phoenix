@@ -6,7 +6,7 @@ This Solidity program is a simple program that demonstrates how tokens work. The
 
 This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain.
 
-The contract have three public variables named as tokenName [a string that stores token name], tokenAbbrv [a string that stores token name abrreviation] and totalSupply [an unsigned interger that stores total supply]. It has a single mapping variable named as balances which stores wallet addres a key and no of tokens as value. 
+The contract have three public variables named as tokenName [a string that stores token name], tokenAbbrv [a string that stores token name abrreviation] and totalSupply [an unsigned integer that stores total supply]. It has a single mapping variable named as balances which stores wallet addres a key and no of tokens as value. 
 
 It have two functions named as "burn" and "mint". The mint function takes two parameters "address of wallet" and "value" to be mint in the wallet address. It simply adds the value to the balances variable using address and also adds the value to the totalSupply. The burn function is similar to mint. It simply burns the value i.e. subtracts the value from the balances variable using address and also subtracts the value from the totalSupply. 
 The program serves as a simple and straightforward introduction to Solidity programming, and can be used as a stepping stone for more complex projects in the future.
